@@ -1,11 +1,11 @@
 # ingreso_pagina_principal_claro_drive
 
 MSG_OUTPUT_INGRESO_PAGINA_PRINCIPAL_EXITOSO = 'Se ingresa correctamente a la pagina principal de Drop Box'
-MSG_OUTPUT_INGRESO_PAGINA_PRINCIPAL_SIN_EXITO = 'no fue posible ingresar a la pagina principal de Drop Box: {}'
+MSG_OUTPUT_INGRESO_PAGINA_PRINCIPAL_SIN_EXITO = 'No fue posible ingresar a la pagina principal de Drop Box: {}'
 
 # inicio_sesion_claro_drive
 MSG_OUTPUT_INICIO_SESION_EXITOSO = 'Se ingresa correctamente al portal Drop Box'
-MSG_OUTPUT_INICIO_SESION_SIN_EXITO = 'no fue posible ingresar al portal Drop Box: {}'
+MSG_OUTPUT_INICIO_SESION_SIN_EXITO = 'No fue posible ingresar al portal Drop Box: {}'
 
 # carga_archivo_claro_drive
 MSG_OUTPUT_CARGA_ARCHIVO_EXITOSO = 'Se realiza correctamente la carga del archivo'
