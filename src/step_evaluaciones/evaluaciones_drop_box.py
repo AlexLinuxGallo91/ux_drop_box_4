@@ -343,11 +343,10 @@ class EvaluacionesDropBoxDriveSteps:
             HtmlActions.click_html_element(btn_eliminar, class_name='action-delete')
 
             btn_eliminar_modal = HtmlActions.webdriver_wait_element_to_be_clickable(
-                webdriver_test_ux, 20, xpath='//span[@class="mc-button-content"][text()="Eliminar"]')
+                webdriver_test_ux, 20, xpath='//span[@class="dig-Button-content"][text()="Eliminar"]')
 
-            HtmlActions.click_html_element(btn_eliminar_modal,
-                                           xpath='//span[@class="mc-button-content"][text()="Eliminar"]')
-            '//span[@class="dig-Snackbar-message "][text()="Se carg\u00F3 {}."]'
+            HtmlActions.click_html_element(
+                btn_eliminar_modal, xpath='//span[@class="dig-Button-content"][text()="Eliminar"]')
 
             HtmlActions.webdriver_wait_presence_of_element_located(
                 webdriver_test_ux, 30,
